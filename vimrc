@@ -27,7 +27,7 @@ if &t_Co < 256
     colorscheme default
     set nocursorline " looks bad in this mode
 else
-    set background=dark
+    set background=light
     let g:solarized_termcolors=256 " instead of 16 color with mapping in terminal
     colorscheme solarized
     " customized colors

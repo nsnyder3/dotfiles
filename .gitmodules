@@ -4,3 +4,18 @@
 [submodule "vim/bundle/vim-pathogen"]
 	path = vim/bundle/vim-pathogen
 	url = https://github.com/tpope/vim-pathogen
+[submodule "vim/bundle/vim-neatstatus"]
+	path = vim/bundle/vim-neatstatus
+	url = git://github.com/maciakl/vim-neatstatus.git
+[submodule "vim/bundle/vim-colors-solarized"]
+	path = vim/bundle/vim-colors-solarized
+	url = https://github.com/altercation/vim-colors-solarized.git
+[submodule "zsh/plugins/dircolors-solarized"]
+	path = zsh/plugins/dircolors-solarized
+	url = https://github.com/seebi/dircolors-solarized.git
+[submodule "zsh/plugins/zsh-completions"]
+	path = zsh/plugins/zsh-completions
+	url = https://github.com/zsh-users/zsh-completions.git
+[submodule "zsh/plugins/zsh-syntax-highlighting"]
+	path = zsh/plugins/zsh-syntax-highlighting
+	url = https://github.com/zsh-users/zsh-syntax-highlighting.git
