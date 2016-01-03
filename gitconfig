@@ -1,0 +1,49 @@
+[alias]
+    # Add
+    a = add
+    ia = add -p
+
+    # Diffs
+    di = diff
+    dis = diff --stat
+    diw = diff --color-words
+    dc = diff --cached
+
+    # Log
+    lg = log --decorate --graph --format=line
+
+    # Status
+    st = status
+
+[diff]
+    mnemonicPrefix = true
+    wordRegex = "[^[:space:]]|([[:alnum:]]|UTF_8_GUARD)+"
+
+[color]
+    ui = auto
+
+[color "grep"]
+    match = cyan bold
+    selected = blue
+    context = normal
+    filename = magenta
+    linenumber = green
+    separator = yellow
+    function = blue
+
+[pretty]
+    line = "%C(auto)%h%d %s %C(yellow)by %C(blue)%an %C(green)%ar"
+    compact = "%C(auto)%h %s %C(green)%ar%n %C(auto)%d%n"
+    detail = "%C(auto)%h %s%n  %C(yellow)by %C(blue)%an %C(magenta)<%ae> [%G?] %C(green)%ar%n %C(auto)%d%n"
+
+[grep]
+    lineNumber = true
+
+[core]
+    autocrlf = input
+    editor = vim
+    excludesfile = ~/.gitignore_global
+
+# Allow local customizations in the .gitconfig_local file
+[include]
+    path = ~/.gitconfig_local
