@@ -11,3 +11,7 @@
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
+  -
+    command: ~/.dotfiles/vim/bundle/YouCompleteMe/install.py --clang-completer --tern-completer
+    description: Compiling YouCompleteMe
+    stout: true
