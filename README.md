@@ -8,11 +8,15 @@ Install
 Manual steps should be eliminated, but you've got to start somewhere.
 
 - Create `.gitconfig_local` and add git name and email
-- Switch iterm colors to (solarized)[http://ethanschoonover.com/solarized]
+- Switch iterm colors to [solarized](http://ethanschoonover.com/solarized)
 - Switch to zsh and restart iterm
 
-*OSX Only*
+OSX Only
 - Install homebrew
 - Install cmake
 - Upgrade zsh
 - Upgrade vim
+
+Run install script
+
+    ./install
