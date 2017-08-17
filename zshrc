@@ -24,6 +24,9 @@ source ~/.zsh/prompt.zsh
 # Syntax highlighting
 source ~/.zsh/syntax.zsh
 
+# Languages
+source ~/.zsh/python.zsh
+
 # External plugins (initialized after)
 source ~/.zsh/plugins_after.zsh
 
