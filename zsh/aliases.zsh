@@ -5,3 +5,4 @@ function aws-profile() {
     fi
     echo "\$AWS_DEFAULT_PROFILE=$AWS_DEFAULT_PROFILE"
 }
+alias ll='ls -la'
