@@ -15,6 +15,8 @@
     # Status
     st = status
 
+    co-fork = "!source ~/.scripts/git-fork.zsh"
+
 [diff]
     mnemonicPrefix = true
     wordRegex = "[^[:space:]]|([[:alnum:]]|UTF_8_GUARD)+"
